@@ -7,6 +7,11 @@
         $age = $_GET['age'];
         echo "Du bist {$age} Jahre alt.";
     }
+
+
+
+
+
 ?>
 
 /*
