@@ -11,7 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     array_push($Zutaten, $Zutat);
     $_SESSION['Zutaten'] = $Zutaten;
 }
-
 ?>
 
 
@@ -36,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <input type="submit" value="Absenden"/>
 </form>
 
-<?php var_dump($Zutaten)?>
+
 
 
 
