@@ -11,6 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     array_push($Zutaten, $Zutat);
     $_SESSION['Zutaten'] = $Zutaten;
 }
+
 ?>
 
 
@@ -24,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php 
     foreach ($Zutaten as $value) {
         echo "<li>
-        $value
+        {$value}
         </li>";
       }
     ?>
